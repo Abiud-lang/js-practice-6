@@ -1,0 +1,167 @@
+{
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Nairobi Hospital",
+      "location": "Nairobi",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT86bnAMoAEBLY5D1Va3wiXo83yAHJgwhTOJw&s",
+      "services": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Kenyatta National Hospital",
+      "location": "Nairobi",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb0BGiEhhxiPE8HxAoWO071d0nMxW5kBH-_Q&s",
+      "services": [
+        4,
+        5
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Aga Khan University Hospital",
+      "location": "Mombasa",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPdH49mwU21mSsTFiDjNt8RAeQSoR78edKig&s",
+      "services": [
+        6,
+        7
+      ]
+    }
+  ],
+  "doctors": [
+    {
+      "id": 1,
+      "name": "Dr. John Doe",
+      "specialization": "Cardiologist",
+      "hospitalId": 1
+    },
+    {
+      "id": 2,
+      "name": "Dr. Jane Smith",
+      "specialization": "Pediatrician",
+      "hospitalId": 2
+    },
+    {
+      "id": 3,
+      "name": "Dr. Ahmed Ali",
+      "specialization": "Orthopedic Surgeon",
+      "hospitalId": 3
+    }
+  ],
+  "patients": [
+    {
+      "id": 1,
+      "name": "Mary Johnson",
+      "age": 34,
+      "gender": "Female",
+      "hospitalId": 1
+    },
+    {
+      "id": 2,
+      "name": "Peter Kimani",
+      "age": 45,
+      "gender": "Male",
+      "hospitalId": 2
+    },
+    {
+      "id": 3,
+      "name": "Alice Njeri",
+      "age": 29,
+      "gender": "Female",
+      "hospitalId": 3
+    }
+  ],
+  "regions": [
+    {
+      "id": 1,
+      "name": "Nairobi",
+      "population": 4500000,
+      "majorHospitals": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Mombasa",
+      "population": 1200000,
+      "majorHospitals": [
+        3
+      ]
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "name": "Cardiology",
+      "description": "Heart-related medical services"
+    },
+    {
+      "id": 2,
+      "name": "Neurology",
+      "description": "Brain and nervous system medical services"
+    },
+    {
+      "id": 3,
+      "name": "Orthopedics",
+      "description": "Bone and muscle-related medical services"
+    },
+    {
+      "id": 4,
+      "name": "Pediatrics",
+      "description": "Medical services for children"
+    },
+    {
+      "id": 5,
+      "name": "Oncology",
+      "description": "Cancer-related medical services"
+    },
+    {
+      "id": 6,
+      "name": "Gynecology",
+      "description": "Medical services for women"
+    },
+    {
+      "id": 7,
+      "name": "Dermatology",
+      "description": "Skin-related medical services"
+    }
+  ],
+  "appointments": [
+    {
+      "id": 1,
+      "patientId": 1,
+      "doctorId": 1,
+      "hospitalId": 1,
+      "date": "2024-08-01",
+      "time": "10:00"
+    },
+    {
+      "id": 2,
+      "patientId": 2,
+      "doctorId": 2,
+      "hospitalId": 2,
+      "date": "2024-08-02",
+      "time": "11:00"
+    },
+    {
+      "id": 3,
+      "patientId": 3,
+      "doctorId": 3,
+      "hospitalId": 3,
+      "date": "2024-08-03",
+      "time": "09:00"
+    },
+    {
+      "id": "cccf",
+      "patientId": "1",
+      "doctorId": "1",
+      "date": "2024-07-23",
+      "time": "14:54"
+    }
+  ]
+}
